@@ -1,0 +1,21 @@
+{
+  "name": "outline-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Foucher <jfoucher@gmail.com> (http://jfoucher.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "editor": "^1.0.0",
+    "getenv": "^1.0.0",
+    "tmp": "^0.2.1"
+  }
+}
