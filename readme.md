@@ -1,4 +1,4 @@
-## Outline CLI
+## Outline CLI Editor
 
 A simple cli tool to create new [Outline](https://github.com/outline/outline) documents
 

@@ -1,5 +1,5 @@
 {
-  "name": "outline-cli",
+  "name": "outline-cli-editor",
   "version": "1.0.0",
   "description": "",
   "main": "bin/index.js",
