@@ -9,3 +9,6 @@ I use it on my self-hosted version but it probably works on the [hosted version]
 ```
 npm install -g outline-cli-editor
 ```
+You will need an api token
+
+Then run `outline-cli-editor` and it will ask you a few questions to configure itself.
