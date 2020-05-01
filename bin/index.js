@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const inquirer = require('inquirer');
 const axios = require('axios')
 fs = require('fs');
@@ -254,10 +256,5 @@ const editOrCreate = () => {
 if (typeof credentials === 'undefined' || !credentials) {
     getCredentials()
 } else {
-    if (typeof collections === 'undefined' || !collections || collections.length === 0) {
-        getCollections();
-    }
+    getCollections();
 }
-
-getCollections();
-
